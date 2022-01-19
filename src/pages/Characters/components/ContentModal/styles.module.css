@@ -1,0 +1,42 @@
+
+.wrapper{
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.image{
+    height: 400px;
+    width: 400px;
+}
+.description {
+    font-family: Roboto, serif;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.title{
+    margin-top: 3rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+.name{
+    font-family: Roboto, serif;
+    font-size: 2rem;
+    color: #000000;
+}
+.subtitle{
+    color: #02022b;
+}
+.button {
+    margin-top: 3rem;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    background: #30429c;
+    border-radius: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

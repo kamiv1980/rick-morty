@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+}
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between ;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mymodal {
+    position: fixed;
+    width: 60%;
+    height: 500px;
+    background: #FFFFFF;
+    border-radius: 0.5rem;
+}
+
+.myoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    margin: 1rem 1rem;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    background: #30429c;
+    border-radius: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
